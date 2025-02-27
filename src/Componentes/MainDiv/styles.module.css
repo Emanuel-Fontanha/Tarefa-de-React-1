@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainDiv {
+    width: auto;
+    min-height: fit-content;
+    background-color: #00274F;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    padding: 20px;
+}
+.divOne {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

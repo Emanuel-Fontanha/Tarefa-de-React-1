@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  "Inter", Arial, Helvetica, sans-serif;
+}
+.container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: start;
+}
+.profilePic {
+    width: 63px;
+    height: 60px;
+    border: 2px solid #888888;
+    border-radius: 100%;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+    min-width: 85%;
+    max-width: 85%;
+    min-height: fit-content;
+}
+.comment div {
+    background-color: #1C1C2F;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+.text {
+    padding: 10px;
+    color: #FFFFFF;
+}
+.likeButton {
+    width: 5.7rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    color: #DDDDDD;
+    background-color: #0E0E1B;
+    padding: 10px 2px;
+    svg {
+        fill: white;
+        transition: fill 0.3s ease;
+    }
+
+    &:hover {
+        color: #007DFA;
+        transition: 0.2s ease;
+        fill: #007DFA;
+    }
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info div {
+    padding: 0px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.deleteButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    border: none;
+    background-color: #1C1C2F;
+
+    &:hover {
+        border: 2px solid;
+        border-radius: 5px;
+        border-color: #007DFA;
+        transition: 0.1s ease;
+    }
+}
+.tempoPublicado {
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    color: #888888;
+}
+.info div h4 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size:14px;
+}
